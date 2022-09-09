@@ -16,7 +16,7 @@ body {
 .text {
   color: var(--colorMain);
   font-size: 6em;
-  font-family: 'Major Mono Display';
+  font-family: 'Major Mono Display', sans-serif;
   text-shadow: var(--brShadow), var(--tlShadow);
   position: relative;
 }
