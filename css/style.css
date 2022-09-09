@@ -1,0 +1,22 @@
+:root {
+  --colorMain: #1d1d1d;
+  --brShadow: 6px 6px 12px #0000009c;
+  --tlShadow: -6px -6px 12px #34343499;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  background: var(--colorMain);
+}
+
+.text {
+  color: var(--colorMain);
+  font-size: 6em;
+  font-family: 'Major Mono Display', sans-serif;
+  text-shadow: var(--brShadow), var(--tlShadow);
+  position: relative;
+}
